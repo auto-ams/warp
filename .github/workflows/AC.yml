@@ -10,7 +10,7 @@ on:
 
 jobs:
   auto_getting_traffic:
-    runs-on: self-hosted
+    runs-on: scw-wonderful-wing
     steps:
       - name: 'Checking'
         uses: actions/checkout@v2
