@@ -1,5 +1,5 @@
 name: 'Getting WARP+ Traffic'
-runs-on: scw-wonderful-wing
+
 on:
   workflow_dispatch:
   push:
@@ -10,7 +10,7 @@ on:
 
 jobs:
   auto_getting_traffic:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: 'Checking'
         uses: actions/checkout@v2
