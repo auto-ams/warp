@@ -1,5 +1,5 @@
 name: 'Getting WARP+ Traffic'
-
+runs-on: scw-wonderful-wing
 on:
   workflow_dispatch:
   push:
