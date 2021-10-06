@@ -15,8 +15,7 @@ jobs:
       - name: 'Checking'
         uses: actions/checkout@v2
 
-      - name: 'Setting Python'
-        uses: actions/setup-python@v1
+  
       
 
       - name: 'Getting WARP+ Traffic'
